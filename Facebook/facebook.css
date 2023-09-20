@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(240, 242, 245);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(240, 242, 245);
+}
+
+.ustContainer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(240, 242, 245);
+  position: relative;
+  margin-top: 150px;
+}
+
+.icContainer {
+  width: 70%;
+  height: 60%;
+  position: relative;
+  background-color: rgb(240, 242, 245);
+  left: 15%;
+  top: 20%;
+  bottom: 20%;
+}
+
+.solContainer {
+  width: 45%;
+  height: 65%;
+  background-color: rgb(240, 242, 245);
+  float: left;
+  margin-top: 1%;
+}
+
+.resimContainer {
+  width: 70%;
+  height: auto;
+  position: relative;
+  top: 5%;
+  padding-top: 0;
+  margin-right: 4%;
+}
+
+.yazi {
+  color: #373737;
+  font-size: 24px;
+  margin-top: 1%;
+  width: auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.sagContainer {
+  display: flex;
+  width: 40%;
+  height: 80%;
+  background-color: white;
+  position: relative;
+  left: 15%;
+  border-radius: 2.5%;
+  top: 25%;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5%;
+  box-shadow: 6px 6px -2px -2px lightgray;
+}
+
+.mailContainer {
+  display: flex;
+  padding: 4%;
+  position: relative;
+  width: 90%;
+  height: 15%;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 5%;
+  border-color: lightgray;
+  border-radius: 5px;
+}
+
+.sifreContainer {
+  display: flex;
+  padding: 4%;
+  position: relative;
+  width: 90%;
+  height: 15%;
+  background-color: white;
+  border-style: solid;
+  margin-bottom: 5%;
+  border-color: lightgray;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.inputsifre {
+  width: 90%;
+  border: 0;
+  outline: none;
+}
+
+.inputEmail {
+  width: 90%;
+  border: 0;
+  outline: none;
+}
+
+.buttonContainer {
+  display: flex;
+  margin-top: 1%;
+  position: relative;
+  width: 99%;
+  height: 20%;
+  background-color: #1877f2;
+  margin-bottom: 3%;
+  border-radius: 5px;
+}
+
+.girisbutton {
+  padding: 3%;
+  width: 99%;
+  height: 20%;
+  background-color: #1877f2;
+  color: white;
+  font-size: 24px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.sifreunuttum {
+  background-color: white;
+  color: #1877f2;
+  border: 0;
+  margin-top: 3%;
+}
+
+.yenihesap {
+  padding: 4%;
+  margin-top: 5%;
+  position: relative;
+  width: 50%;
+  height: 20%;
+  background-color: #42b72a;
+  border-style: solid;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-size: medium;
+}
+
+.sonyaziContainer {
+  width: 40%;
+  height: auto;
+  margin-left: 60%;
+}
+
+.sonyaziText {
+  font-size: 90%;
+  padding-left: 5%;
+  font-weight: 300;
+}
+
+.sonyaziText > a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  height: 20%;
+  position: relative;
+}
+
+.hr {
+  width: 93%;
+  color: black;
+  margin-top: 10%;
+  border: 1px;
+  border-style: solid;
+}
