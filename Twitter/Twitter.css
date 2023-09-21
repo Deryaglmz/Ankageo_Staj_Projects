@@ -1,0 +1,304 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.ustContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.solContainer {
+  display: flex;
+  width: 40%;
+  height: auto;
+  background-color: black;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.resim {
+  width: 700px; /* Genişlik */
+  height: 300px; /* Yükseklik */
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+.sagContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  padding: 5%;
+  padding-left: 10%;
+  padding-top: 2;
+  margin-left: 6%;
+  margin-bottom: 20px;
+}
+
+.ustyaziContainer {
+  width: 80%;
+  height: max-content;
+  margin-top: 10%;
+}
+
+.ustyazi {
+  font-size: 64px;
+  color: white;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ustyazi2Container {
+  width: auto;
+  margin-top: 5%;
+  height: max-content;
+}
+
+.ustyazi2 {
+  font-size: 30px;
+  color: white;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.buttonContainer {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.buttn {
+  border: 0;
+  outline: none;
+  border-radius: 45px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 250px;
+  padding: 12px;
+  position: relative;
+}
+
+.hrContainer {
+  display: flex;
+  color: white;
+}
+hr {
+  width: 100px;
+  margin-top: 15px;
+  margin-right: 5px;
+  color: white;
+}
+#hesapolusturbuttn {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-size: 13px;
+}
+
+.gizlilikmetniContainer {
+  width: 250px;
+}
+
+.gizlilikmetni {
+  font-size: 12px;
+  color: #71767b;
+}
+
+.hesapContainer {
+  margin-top: 7%;
+  display: flex;
+}
+
+#girisButton {
+  background-color: black;
+  color: rgb(29, 155, 240);
+  border: 1px solid rgb(83, 100, 113);
+}
+
+.altbilgiContainer a,
+div h4 {
+  color: #71767b;
+  text-decoration: none;
+  height: fit-content;
+}
+
+.loginG {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(223, 223, 223);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #fff;
+  color: #0f1419;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.loginG .loginName {
+  width: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.loginG p {
+  font-size: 14px;
+  color: black;
+}
+
+.or {
+  font-size: 16px;
+  color: white;
+}
+.loginG p span {
+  font-weight: bold;
+  color: black;
+}
+
+.googleLogo {
+  margin-right: 5px;
+  width: 20px;
+  color: #0f1419;
+}
+
+.loginG:hover {
+  background-color: rgb(228, 230, 233);
+  cursor: pointer;
+}
+
+.loginApple {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(223, 223, 223);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.AppleLogo {
+  margin-right: 5px;
+  width: 20px;
+  color: #0f1419;
+}
+
+.loginApple:hover {
+  background-color: rgb(228, 230, 233);
+  cursor: pointer;
+}
+
+.createAccount {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(223, 223, 223);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  background-color: rgb(29, 155, 240);
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.createAccount:hover {
+  background-color: rgb(0, 139, 231);
+  cursor: pointer;
+}
+
+span {
+  color: rgb(29, 155, 240);
+}
+.rightcontainer span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(240, 242, 245);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(29, 155, 240);
+  background-color: black;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login:hover {
+  cursor: pointer;
+  background-color: rgba(47, 45, 45, 0.5);
+}
+
+.altbilgiContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.altbilgi {
+  width: 100%;
+}
+
+.altbilgiContainer ul li a {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+}
+
+.altbilgiContainer ul li {
+  font-size: 13px;
+  margin: 12px;
+  list-style-type: none;
+}
+
+.altbilgi ul {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.altbilgiContainer ul li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.son {
+  width: 100%;
+}
+
+.son ul {
+  display: flex;
+  justify-content: center;
+}
