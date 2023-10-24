@@ -302,3 +302,89 @@ span {
   display: flex;
   justify-content: center;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .solContainer {
+  display: none;
+ }
+
+ .ustyazi {
+  font-size: 40px;
+  color: white;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ }
+
+ .altyazi{
+   font-size: 12px;
+   color: rgb(139, 134, 134);
+   margin-bottom: 50px;
+   width: 400px;
+ }
+
+.loginG {
+ margin-top: 20px;
+}
+
+ .sagContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  padding: 5%;
+  padding-left: 10%;
+  padding-top: 2;
+  margin-left: 10%;
+  margin-bottom: 20px;
+
+ }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .solContainer {
+    display: none;
+   }
+
+   .sagContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    padding: 5%;
+    padding-left: 10%;
+    padding-top: 2;
+    margin-left: 30%;
+    margin-bottom: 20px;
+ 
+  }
+  
+   .ustyazi {
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   }
+  
+   .altyazi{
+     font-size: 12px;
+     color: rgb(139, 134, 134);
+     margin-bottom: 50px;
+     width: 400px;
+   }
+  
+  .loginG {
+   margin-top: 20px;
+  }
+}
