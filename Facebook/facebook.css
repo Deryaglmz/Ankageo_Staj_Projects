@@ -174,12 +174,6 @@ body {
   font-weight: bold;
 }
 
-.footer {
-  width: 100%;
-  height: 20%;
-  position: relative;
-}
-
 .hr {
   width: 93%;
   color: black;
@@ -187,3 +181,64 @@ body {
   border: 1px;
   border-style: solid;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .sagContainer {
+    width: 100%; 
+    height: auto; 
+    left: 0; 
+    top: 40px; 
+    }
+  
+    .yazi {
+      font-size: 22px;
+      margin-top: 1%;
+      word-wrap: break-word;
+      width: 350px;
+    }
+    .sonyaziText {
+      font-size: 18px;
+      width: 400px;
+      top: 40px;
+      margin-left: 20px;
+    }
+    
+    .sonyaziContainer {
+      width: 5%;
+      /* height: auto; */
+      margin-top: 40px;
+      margin-left: 20px;
+  
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sagContainer {
+    width: 100%; 
+    height: auto; 
+    left: 0; 
+    top: 40px; 
+    }
+  
+    .yazi {
+      font-size: 22px;
+      white-space: normal;
+      width: 500px;
+    }
+
+    .sonyaziText {
+      font-size: 25px;
+      width: 500px;
+      top: 40px;
+      margin-left: 20px;
+  
+    }
+
+  
+    .sonyaziContainer {
+      width: 40%;
+      height: auto;
+      margin-top: 40px;
+      margin-left: 20px;
+    }
+}    
